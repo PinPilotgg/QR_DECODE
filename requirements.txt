@@ -2,3 +2,4 @@ Flask==2.3.2
 opencv-python==4.7.0.72
 pyzbar==0.1.8
 gunicorn
+numpy<2.0
