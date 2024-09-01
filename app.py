@@ -28,7 +28,7 @@ def decode_qr_code(image_path):
     if address:
         output.append(f"Address: {address.group(1)}")
     if pincode:
-        output.append(f"Pincode: {pincode.group()}")
+        output.append(f"Pincode: {pincode.group()}")  # Fixing the pincode extraction here
     if post_office:
         output.append(f"Post Office: {post_office.group(1)}")
     if district:
